@@ -67,7 +67,7 @@ class Rodent(MjxEnv):
             self,
             forward_reward_weight=5,
             ctrl_cost_weight=0.1,
-            healthy_reward=1.0,
+            healthy_reward=0.0,
             terminate_when_unhealthy=False,
             healthy_z_range=(0.0, 2.0),
             reset_noise_scale=1e-2,
