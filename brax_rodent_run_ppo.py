@@ -225,7 +225,7 @@ run = wandb.init(
     config=config
 )
 
-wandb.run.name = f"{config["env_name"]}_{config['task_name']}_{config["algo_name"]}_brax"
+wandb.run.name = f"{config['env_name']}_{config['task_name']}_{config['algo_name']}_brax"
 
 
 def wandb_progress(num_steps, metrics):
