@@ -202,12 +202,12 @@ config = {
     "env_name": env_name,
     "algo_name": "ppo",
     "task_name": "run",
-    "num_envs": 1024,
+    "num_envs": 2048,
     "num_timesteps": 10_000_000,
     "eval_every": 10_000,
     "episode_length": 1000,
     "num_evals": 1000,
-    "batch_size": 256,
+    "batch_size": 512,
     "learning_rate": 3e-4,
     "terminate_when_unhealthy": False
 }
